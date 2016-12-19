@@ -1,7 +1,7 @@
 git - bash setup
 On linux command line to make command prompt provide repository details, we need to setup bash with below scripts.
 
-<user> <(master #)> <reflections>
+user (master #) reflections#
 UserName Branch	    Repository.
 
 Download files git-completion.bash, git-prompt.sh and paste below script in .bash_profile in linux.
@@ -10,8 +10,8 @@ Download files git-completion.bash, git-prompt.sh and paste below script in .bas
 source ~/git-completion.bash
 
 # colors!
-green="\[\033[0;32m\]"
-blue="\[\033[0;34m\]"
+green="\[\033[0;32m\]" \n
+blue="\[\033[0;34m\]" \n
 purple="\[\033[0;35m\]"
 reset="\[\033[0m\]"
 
